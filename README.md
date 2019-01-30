@@ -1,16 +1,23 @@
 # Test For String Concatenation
 **concat** vs. **+(operation)** vs. **StringBuilder**
 
----
-input
+
+**input**
 ---
 
 AB-12345678-CD
 
 // delete hyphen and concate strings
 
----
-output
+
+**output**
 ---
 
 AB12345678CD
+
+
+**result**
+---
+testConcat  ->  ---- nanoTime
+testPlus    ->  ---- nanoTime
+testStringBuilder ->  ---- nanoTime
