@@ -22,7 +22,7 @@ public class StringTest1 {
 			return "";
 		}
 
-		int[] nums = {4,6,4};
+		int[] nums = {2,8,2};
 		for (int i = 0; i < nums.length; i++){
 			if (nums[i] != jiNos[i].length()) {
 				return "";
@@ -52,7 +52,7 @@ public class StringTest1 {
 			return "";
 		}
 
-		int[] nums = {4,6,4};
+		int[] nums = {2,8,2};
 		for (int i = 0; i < nums.length; i++){
 			if (nums[i] != jiNos[i].length()) {
 				return "";
@@ -81,7 +81,7 @@ public class StringTest1 {
 			return "";
 		}
 
-		int[] nums = {4,6,4};
+		int[] nums = {2,8,2};
 		for (int i = 0; i < nums.length; i++){
 			if (nums[i] != jiNos[i].length()) {
 				return "";
@@ -99,17 +99,17 @@ public class StringTest1 {
 
 	@Test
 	public final void testGetNoByConcat() {
-		assertEquals("1301H000001301",getNo("1301-H00000-1301"));
+		assertEquals("AB12345678CD",getNo("AB-12345678-CD"));
 	}
 
 	@Test
 	public final void testGetNoByPlus() {
-		assertEquals("1301H000001301",getNo2("1301-H00000-1301"));
+		assertEquals("AB12345678CD",getNo2("AB-12345678-CD"));
 	}
 
 	@Test
 	public final void testGetNoByStringBuilder() {
-		assertEquals("1301H000001301",getNo3("1301-H00000-1301"));
+		assertEquals("AB12345678CD",getNo3("AB-12345678-CD"));
 	}
 
 }
