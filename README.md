@@ -18,6 +18,11 @@ AB12345678CD
 
 **result**
 ---
-testConcat  ->  ---- nanoTime
-testPlus    ->  ---- nanoTime
-testStringBuilder ->  ---- nanoTime
+
+* testConcat  ->  ---- nanoTime
+
+* testPlus    ->  ---- nanoTime
+
+* testStringBuilder ->  ---- nanoTime
+
+** StringBuilder is the best way to concate STRINGS
