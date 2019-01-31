@@ -19,7 +19,7 @@ AB12345678CD
 **result**
 ---
 
-32bit environment
+**32bit environment**
 
 * testConcat  ->  ---- nanoTime
 
@@ -27,9 +27,9 @@ AB12345678CD
 
 * testStringBuilder ->  ---- nanoTime
 
-** StringBuilder is the best way to concate STRINGS
+⇒ StringBuilder is the best way to concate STRINGS
 
-64bit environment
+**64bit environment**
 
 * time to StringBuilder =	42973 nanoTime
 
@@ -37,4 +37,4 @@ AB12345678CD
 
 * time to Plus =		24423 nanoTime
 
-** Concat API is the best way 
+⇒ Concat API is the best way 
