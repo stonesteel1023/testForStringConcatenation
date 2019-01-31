@@ -7,7 +7,7 @@
 
 AB-12345678-CD
 
-// delete hyphen and concate strings
+// delete hyphen and concatenate with strings
 
 
 **output**
@@ -27,7 +27,7 @@ AB12345678CD
 
 * testStringBuilder ->  ---- nanoTime
 
-⇒ StringBuilder is the best way to concate STRINGS
+⇒ StringBuilder is the best way concatenate with strings
 
 **64bit environment**
 
