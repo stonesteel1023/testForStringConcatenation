@@ -32,7 +32,7 @@ public class StringTest1 {
 		}
 
 		long end = System.nanoTime();
-		System.out.println("time to Concat =	" + (end - start) + "nanoTime");
+		System.out.println("time to Concat =	" + (end - start) + " nanoTime");
 
 		return jiNo;
 
@@ -62,7 +62,7 @@ public class StringTest1 {
 		}
 
 		long end = System.nanoTime();
-		System.out.println("time to Plus =		" + (end - start) + "nanoTime");
+		System.out.println("time to Plus =		" + (end - start) + " nanoTime");
 
 		return jiNo;
 	}
@@ -91,7 +91,7 @@ public class StringTest1 {
 		}
 
 		long end = System.nanoTime();
-		System.out.println("time to StringBuilder =	" + (end - start) + "nanoTime");
+		System.out.println("time to StringBuilder =	" + (end - start) + " nanoTime");
 
 		return jiNo;
 	}
